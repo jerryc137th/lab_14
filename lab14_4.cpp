@@ -17,3 +17,9 @@ int main(){
 	
 	return 0;
 }
+
+
+void shuffle(int &a,int &b,int &c,int &d){
+	int k[4] = {};
+	for(int i = 0 ;i<4;i++) k[i] = rand()%3;
+}
